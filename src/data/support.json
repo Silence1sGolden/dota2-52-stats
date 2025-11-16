@@ -1,0 +1,112 @@
+[
+  {
+    "id": 3,
+    "gamesCount": 17,
+    "kills": 3,
+    "deaths": 7,
+    "assists": 12,
+    "lastHits": 43,
+    "denies": 2,
+    "gold": 17584,
+    "goldPerMin": 796,
+    "xpPerMin": 1582,
+    "heroDamage": 12577,
+    "towerDamage": 958,
+    "heroHealing": 95,
+    "damageReceived": 32374,
+    "rating": "0.69",
+    "bestHeroes": [
+      "venomancer",
+      "rubick",
+      "sniper"
+    ]
+  },
+  {
+    "id": 10,
+    "gamesCount": 8,
+    "kills": 4,
+    "deaths": 6,
+    "assists": 12,
+    "lastHits": 61,
+    "denies": 3,
+    "gold": 18552,
+    "goldPerMin": 786,
+    "xpPerMin": 1581,
+    "heroDamage": 19930,
+    "towerDamage": 579,
+    "heroHealing": 972,
+    "damageReceived": 30906,
+    "rating": "0.75",
+    "bestHeroes": [
+      "lich",
+      "centaur",
+      "witch_doctor"
+    ]
+  },
+  {
+    "id": 9,
+    "gamesCount": 16,
+    "kills": 6,
+    "deaths": 6,
+    "assists": 12,
+    "lastHits": 62,
+    "denies": 2,
+    "gold": 21250,
+    "goldPerMin": 861,
+    "xpPerMin": 1646,
+    "heroDamage": 18372,
+    "towerDamage": 1358,
+    "heroHealing": 1898,
+    "damageReceived": 35989,
+    "rating": "0.79",
+    "bestHeroes": [
+      "marci",
+      "undying",
+      "nyx_assassin"
+    ]
+  },
+  {
+    "id": 11,
+    "gamesCount": 7,
+    "kills": 3,
+    "deaths": 6,
+    "assists": 12,
+    "lastHits": 42,
+    "denies": 0,
+    "gold": 19431,
+    "goldPerMin": 779,
+    "xpPerMin": 1678,
+    "heroDamage": 13342,
+    "towerDamage": 9504,
+    "heroHealing": 430,
+    "damageReceived": 37494,
+    "rating": "0.60",
+    "bestHeroes": [
+      "ogre_magi",
+      "witch_doctor",
+      "shadow_shaman"
+    ]
+  },
+  {
+    "id": 5,
+    "gamesCount": 14,
+    "kills": 4,
+    "deaths": 7,
+    "assists": 14,
+    "lastHits": 47,
+    "denies": 2,
+    "gold": 18736,
+    "goldPerMin": 779,
+    "xpPerMin": 1519,
+    "heroDamage": 15333,
+    "towerDamage": 1871,
+    "heroHealing": 119,
+    "damageReceived": 30894,
+    "rating": "0.72",
+    "bestHeroes": [
+      "rattletrap",
+      "skywrath_mage",
+      "lich"
+    ]
+  }
+]

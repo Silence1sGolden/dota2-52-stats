@@ -14,7 +14,12 @@
     "towerDamage": 5856,
     "heroHealing": 467,
     "damageReceived": 49498,
-    "rating": "2.4"
+    "rating": "1.24",
+    "bestHeroes": [
+      "tinker",
+      "gyrocopter",
+      "terrorblade"
+    ]
   },
   {
     "id": 2,
@@ -31,7 +36,12 @@
     "towerDamage": 5739,
     "heroHealing": 13,
     "damageReceived": 40988,
-    "rating": "2.8"
+    "rating": "1.36",
+    "bestHeroes": [
+      "templar_assassin",
+      "ember_spirit",
+      "queenofpain"
+    ]
   },
   {
     "id": 3,
@@ -48,7 +58,12 @@
     "towerDamage": 958,
     "heroHealing": 95,
     "damageReceived": 32374,
-    "rating": "2.7"
+    "rating": "0.69",
+    "bestHeroes": [
+      "venomancer",
+      "rubick",
+      "sniper"
+    ]
   },
   {
     "id": 4,
@@ -65,7 +80,12 @@
     "towerDamage": 5421,
     "heroHealing": 304,
     "damageReceived": 58322,
-    "rating": "2.6"
+    "rating": "1.25",
+    "bestHeroes": [
+      "pudge",
+      "queenofpain",
+      "antimage"
+    ]
   },
   {
     "id": 5,
@@ -82,7 +102,12 @@
     "towerDamage": 1871,
     "heroHealing": 119,
     "damageReceived": 30894,
-    "rating": "2.6"
+    "rating": "0.72",
+    "bestHeroes": [
+      "rattletrap",
+      "skywrath_mage",
+      "lich"
+    ]
   },
   {
     "id": 6,
@@ -99,7 +124,12 @@
     "towerDamage": 4012,
     "heroHealing": 0,
     "damageReceived": 43689,
-    "rating": "2.1"
+    "rating": "0.94",
+    "bestHeroes": [
+      "ursa",
+      "sand_king",
+      "phantom_lancer"
+    ]
   },
   {
     "id": 7,
@@ -116,7 +146,12 @@
     "towerDamage": 4377,
     "heroHealing": 357,
     "damageReceived": 42439,
-    "rating": "2.3"
+    "rating": "1.20",
+    "bestHeroes": [
+      "juggernaut",
+      "razor",
+      "queenofpain"
+    ]
   },
   {
     "id": 8,
@@ -133,7 +168,12 @@
     "towerDamage": 1443,
     "heroHealing": 632,
     "damageReceived": 50322,
-    "rating": "2.2"
+    "rating": "0.96",
+    "bestHeroes": [
+      "skeleton_king",
+      "dawnbreaker",
+      "sand_king"
+    ]
   },
   {
     "id": 9,
@@ -150,7 +190,12 @@
     "towerDamage": 1358,
     "heroHealing": 1898,
     "damageReceived": 35989,
-    "rating": "3.1"
+    "rating": "0.79",
+    "bestHeroes": [
+      "marci",
+      "undying",
+      "nyx_assassin"
+    ]
   },
   {
     "id": 10,
@@ -167,7 +212,12 @@
     "towerDamage": 579,
     "heroHealing": 972,
     "damageReceived": 30906,
-    "rating": "2.5"
+    "rating": "0.75",
+    "bestHeroes": [
+      "lich",
+      "centaur",
+      "witch_doctor"
+    ]
   },
   {
     "id": 11,
@@ -184,7 +234,12 @@
     "towerDamage": 9504,
     "heroHealing": 430,
     "damageReceived": 37494,
-    "rating": "3.0"
+    "rating": "0.60",
+    "bestHeroes": [
+      "ogre_magi",
+      "witch_doctor",
+      "shadow_shaman"
+    ]
   },
   {
     "id": 12,
@@ -201,7 +256,12 @@
     "towerDamage": 325,
     "heroHealing": 171,
     "damageReceived": 25910,
-    "rating": "3.1"
+    "rating": "0.76",
+    "bestHeroes": [
+      "ogre_magi",
+      "jakiro",
+      "skywrath_mage"
+    ]
   },
   {
     "id": 13,
@@ -218,7 +278,10 @@
     "towerDamage": 0,
     "heroHealing": 0,
     "damageReceived": 30449,
-    "rating": "0.9"
+    "rating": "0.49",
+    "bestHeroes": [
+      "spectre"
+    ]
   },
   {
     "id": 14,
@@ -235,7 +298,11 @@
     "towerDamage": 4859,
     "heroHealing": 160,
     "damageReceived": 30067,
-    "rating": "1.9"
+    "rating": "0.56",
+    "bestHeroes": [
+      "dragon_knight",
+      "disruptor"
+    ]
   },
   {
     "id": 15,
@@ -252,7 +319,10 @@
     "towerDamage": 0,
     "heroHealing": 2824,
     "damageReceived": 31722,
-    "rating": "0.7"
+    "rating": "0.24",
+    "bestHeroes": [
+      "enchantress"
+    ]
   },
   {
     "id": 16,
@@ -269,6 +339,9 @@
     "towerDamage": 1447,
     "heroHealing": 7717,
     "damageReceived": 68304,
-    "rating": "2.2"
+    "rating": "0.54",
+    "bestHeroes": [
+      "vengefulspirit"
+    ]
   }
 ]
