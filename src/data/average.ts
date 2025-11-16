@@ -16,7 +16,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5856,
     heroHealing: 467,
     damageReceived: 49498,
-    rating: "1.2",
+    rating: "1.24",
+    bestHeroes: ["tinker", "gyrocopter", "terrorblade"],
   },
   {
     id: 2,
@@ -33,7 +34,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5739,
     heroHealing: 13,
     damageReceived: 40988,
-    rating: "1.4",
+    rating: "1.36",
+    bestHeroes: ["templar_assassin", "ember_spirit", "queenofpain"],
   },
   {
     id: 3,
@@ -50,7 +52,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 958,
     heroHealing: 95,
     damageReceived: 32374,
-    rating: "0.7",
+    rating: "0.69",
+    bestHeroes: ["venomancer", "rubick", "sniper"],
   },
   {
     id: 4,
@@ -67,7 +70,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5421,
     heroHealing: 304,
     damageReceived: 58322,
-    rating: "1.2",
+    rating: "1.25",
+    bestHeroes: ["pudge", "queenofpain", "antimage"],
   },
   {
     id: 5,
@@ -84,7 +88,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1871,
     heroHealing: 119,
     damageReceived: 30894,
-    rating: "0.7",
+    rating: "0.72",
+    bestHeroes: ["rattletrap", "skywrath_mage", "lich"],
   },
   {
     id: 6,
@@ -101,7 +106,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4012,
     heroHealing: 0,
     damageReceived: 43689,
-    rating: "1.0",
+    rating: "0.94",
+    bestHeroes: ["ursa", "sand_king", "phantom_lancer"],
   },
   {
     id: 7,
@@ -118,7 +124,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4377,
     heroHealing: 357,
     damageReceived: 42439,
-    rating: "1.2",
+    rating: "1.20",
+    bestHeroes: ["juggernaut", "razor", "queenofpain"],
   },
   {
     id: 8,
@@ -135,7 +142,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1443,
     heroHealing: 632,
     damageReceived: 50322,
-    rating: "0.9",
+    rating: "0.96",
+    bestHeroes: ["skeleton_king", "dawnbreaker", "sand_king"],
   },
   {
     id: 9,
@@ -152,7 +160,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1358,
     heroHealing: 1898,
     damageReceived: 35989,
-    rating: "0.8",
+    rating: "0.79",
+    bestHeroes: ["marci", "undying", "nyx_assassin"],
   },
   {
     id: 10,
@@ -169,7 +178,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 579,
     heroHealing: 972,
     damageReceived: 30906,
-    rating: "0.7",
+    rating: "0.75",
+    bestHeroes: ["lich", "centaur", "witch_doctor"],
   },
   {
     id: 11,
@@ -186,7 +196,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 9504,
     heroHealing: 430,
     damageReceived: 37494,
-    rating: "0.6",
+    rating: "0.60",
+    bestHeroes: ["ogre_magi", "witch_doctor", "shadow_shaman"],
   },
   {
     id: 12,
@@ -203,7 +214,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 325,
     heroHealing: 171,
     damageReceived: 25910,
-    rating: "0.8",
+    rating: "0.76",
+    bestHeroes: ["ogre_magi", "jakiro", "skywrath_mage"],
   },
   {
     id: 13,
@@ -220,7 +232,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 0,
     heroHealing: 0,
     damageReceived: 30449,
-    rating: "0.5",
+    rating: "0.49",
+    bestHeroes: ["spectre"],
   },
   {
     id: 14,
@@ -237,7 +250,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4859,
     heroHealing: 160,
     damageReceived: 30067,
-    rating: "0.5",
+    rating: "0.56",
+    bestHeroes: ["dragon_knight", "disruptor"],
   },
   {
     id: 15,
@@ -254,7 +268,8 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 0,
     heroHealing: 2824,
     damageReceived: 31722,
-    rating: "0.2",
+    rating: "0.24",
+    bestHeroes: ["enchantress"],
   },
   {
     id: 16,
@@ -271,6 +286,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1447,
     heroHealing: 7717,
     damageReceived: 68304,
-    rating: "0.5",
+    rating: "0.54",
+    bestHeroes: ["vengefulspirit"],
   },
 ];

@@ -78,15 +78,15 @@ export function MorePlayerInfo({ stats }: { stats: TAverage }) {
       </div>
       <div className={style.moreInfo}>
         <div className={style.popularHero}>
-          <p className={style.title}>Popular Hero</p>
+          <p className={style.title}>Best Heroes</p>
           <div className={style.heroList}>
-            {/* {stats.bestHeroes.map((item) => (
+            {stats.bestHeroes.map((item) => (
               <img
                 className={style.hero}
                 src={`https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/${item}.png`}
                 alt={item}
               />
-            ))} */}
+            ))}
           </div>
         </div>
         <table>
