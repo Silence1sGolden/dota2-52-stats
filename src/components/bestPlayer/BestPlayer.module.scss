@@ -1,0 +1,109 @@
+.player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 20px;
+
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #0a0a0a;
+
+  .profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    .username {
+      font-size: 26px;
+    }
+
+    .avatar {
+      inline-size: 100px;
+    }
+  }
+
+  .rating {
+    font-size: 36px;
+    padding-right: 30%;
+  }
+
+  .popularHero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .title {
+      text-align: center;
+    }
+
+    .heroList {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .hero {
+        block-size: 36px;
+      }
+    }
+  }
+
+  .table {
+    th,
+    td {
+      min-width: 65px;
+      text-align: center;
+    }
+
+    tr:nth-child(odd) td {
+      color: #b4b4b4;
+      font-size: 12px;
+    }
+
+    td {
+      font-size: 16px;
+    }
+  }
+}
+
+.highlightedText {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 2rem 0;
+  background: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 4s linear infinite;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  position: relative;
+  display: inline-block;
+}
+
+.highlightedText::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
+  background-size: 400% 100%;
+  filter: blur(15px);
+  opacity: 0.7;
+  z-index: -1;
+  animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

@@ -11,7 +11,7 @@ export function Player({ stats }: { stats: TAverage }) {
   }
 
   return (
-    <div className={style.player}>
+    <li className={style.player}>
       <div className={style.mainInfo}>
         <p className={style.rating}>{stats.rating}</p>
         <div className={style.profile}>
@@ -46,6 +46,6 @@ export function Player({ stats }: { stats: TAverage }) {
         </table>
       </div>
       <MorePlayerInfo stats={stats} />
-    </div>
+    </li>
   );
 }

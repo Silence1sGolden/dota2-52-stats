@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 20px;
+  padding: 10px 10px 30px;
+
+  .button {
+    border-radius: 100px;
+    color: white;
+  }
+
+  .current {
+    pointer-events: none;
+    color: gray;
+  }
+}
