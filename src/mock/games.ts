@@ -2,7 +2,8 @@ import type { IGame } from "../models/Game";
 
 export const MOCK_GAMES: IGame[] = [
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "25:15",
     teamWin: "Dire",
     players: [
       {
@@ -21,6 +22,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 48877,
         hero: "rubick",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 11,
@@ -38,6 +40,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 29408,
         hero: "shadow_shaman",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 4,
@@ -55,6 +58,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 48877,
         hero: "queenofpain",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 1,
@@ -72,6 +76,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 83466,
         hero: "abaddon",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 2,
@@ -89,6 +94,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 70494,
         hero: "leshrac",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 10,
@@ -106,6 +112,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 28381,
         hero: "skywrath_mage",
         side: "Dire",
+        position: "support",
       },
       {
         id: 8,
@@ -123,6 +130,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 74062,
         hero: "dawnbreaker",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 7,
@@ -140,6 +148,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 63635,
         hero: "life_stealer",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 9,
@@ -157,6 +166,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 50136,
         hero: "witch_doctor",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 6,
@@ -174,11 +184,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 37036,
         hero: "sand_king",
         side: "Radiant",
+        position: "harder",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "20:47",
     teamWin: "Dire",
     players: [
       {
@@ -197,6 +209,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 25460,
         hero: "mars",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 10,
@@ -214,6 +227,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 14123,
         hero: "jakiro",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 9,
@@ -231,6 +245,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 22869,
         hero: "weaver",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 7,
@@ -248,6 +263,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 25279,
         hero: "phantom_lancer",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 1,
@@ -265,6 +281,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 14484,
         hero: "medusa",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 2,
@@ -282,6 +299,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 21847,
         hero: "sniper",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 3,
@@ -299,6 +317,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 9325,
         hero: "ringmaster",
         side: "Dire",
+        position: "support",
       },
       {
         id: 6,
@@ -316,6 +335,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13547,
         hero: "sand_king",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 5,
@@ -333,6 +353,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 19806,
         hero: "rattletrap",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 4,
@@ -350,11 +371,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 16733,
         hero: "queenofpain",
         side: "Dire",
+        position: "mider",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "13:28",
     teamWin: "Dire",
     players: [
       {
@@ -373,6 +396,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 11291,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 3,
@@ -390,6 +414,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 15331,
         hero: "obsidian_destroyer",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 5,
@@ -407,6 +432,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13168,
         hero: "pudge",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 1,
@@ -424,6 +450,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13168,
         hero: "lina",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 6,
@@ -441,6 +468,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 9552,
         hero: "windrunner",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 7,
@@ -458,6 +486,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 5143,
         hero: "juggernaut",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 2,
@@ -475,6 +504,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 16912,
         hero: "ember_spirit",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 9,
@@ -492,6 +522,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 12075,
         hero: "marci",
         side: "Dire",
+        position: "support",
       },
       {
         id: 8,
@@ -509,6 +540,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 15525,
         hero: "centaur",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 10,
@@ -526,11 +558,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 7589,
         hero: "lich",
         side: "Dire",
+        position: "hard_support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "24:38",
     teamWin: "Radiant",
     players: [
       {
@@ -549,6 +583,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 25000,
         hero: "sand_king",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 12,
@@ -566,6 +601,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 14457,
         hero: "jakiro",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 2,
@@ -583,6 +619,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 45193,
         hero: "templar_assassin",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 9,
@@ -600,6 +637,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 40151,
         hero: "nyx_assassin",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 7,
@@ -617,6 +655,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 37141,
         hero: "luna",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 4,
@@ -634,6 +673,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 64612,
         hero: "arc_warden",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 5,
@@ -651,6 +691,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 31346,
         hero: "witch_doctor",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 1,
@@ -668,6 +709,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 31460,
         hero: "juggernaut",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 6,
@@ -685,6 +727,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 78774,
         hero: "bristleback",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 3,
@@ -702,11 +745,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 55819,
         hero: "medusa",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "27:35",
     teamWin: "Radiant",
     players: [
       {
@@ -725,6 +770,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 52896,
         hero: "necrolyte",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 2,
@@ -742,6 +788,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 42732,
         hero: "queenofpain",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 5,
@@ -759,6 +806,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 42128,
         hero: "lich",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 3,
@@ -776,6 +824,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 22655,
         hero: "rubick",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 6,
@@ -793,6 +842,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 78273,
         hero: "ursa",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 1,
@@ -810,6 +860,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 82440,
         hero: "troll_warlord",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 7,
@@ -827,6 +878,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 55151,
         hero: "storm_spirit",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 12,
@@ -844,6 +896,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 28696,
         hero: "jakiro",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 8,
@@ -861,6 +914,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 73374,
         hero: "slardar",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 9,
@@ -878,11 +932,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 45959,
         hero: "snapfire",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "11.11.2025",
+    gameTimeLenght: "22:19",
     teamWin: "Radiant",
     players: [
       {
@@ -901,6 +957,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 61542,
         hero: "pudge",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 12,
@@ -918,6 +975,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13104,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 11,
@@ -935,6 +993,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 21908,
         hero: "witch_doctor",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 8,
@@ -952,6 +1011,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 20551,
         hero: "magnataur",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 1,
@@ -969,6 +1029,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13129,
         hero: "tinker",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 13,
@@ -986,6 +1047,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 30449,
         hero: "spectre",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 6,
@@ -1003,6 +1065,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 34251,
         hero: "techies",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 3,
@@ -1020,6 +1083,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 34170,
         hero: "earthshaker",
         side: "Dire",
+        position: "support",
       },
       {
         id: 14,
@@ -1037,6 +1101,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 27807,
         hero: "disruptor",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 15,
@@ -1054,11 +1119,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 31722,
         hero: "enchantress",
         side: "Dire",
+        position: "harder",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "31:52",
     teamWin: "Dire",
     players: [
       {
@@ -1077,6 +1144,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 70841,
         hero: "monkey_king",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 6,
@@ -1094,6 +1162,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 90648,
         hero: "broodmother",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 3,
@@ -1111,6 +1180,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 50266,
         hero: "nyx_assassin",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 5,
@@ -1128,6 +1198,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 26457,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 7,
@@ -1145,6 +1216,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 42490,
         hero: "queenofpain",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 2,
@@ -1162,6 +1234,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 62319,
         hero: "void_spirit",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 10,
@@ -1179,6 +1252,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 49902,
         hero: "witch_doctor",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 1,
@@ -1196,6 +1270,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 49035,
         hero: "medusa",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 8,
@@ -1213,6 +1288,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 52194,
         hero: "chaos_knight",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 9,
@@ -1230,11 +1306,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 70968,
         hero: "undying",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "25:31",
     teamWin: "Radiant",
     players: [
       {
@@ -1253,6 +1331,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 70107,
         hero: "gyrocopter",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 8,
@@ -1270,6 +1349,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 42981,
         hero: "slardar",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 2,
@@ -1287,6 +1367,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 26870,
         hero: "puck",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 10,
@@ -1304,6 +1385,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 18332,
         hero: "lich",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 9,
@@ -1321,6 +1403,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 44604,
         hero: "marci",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 3,
@@ -1338,6 +1421,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 31091,
         hero: "rubick",
         side: "Dire",
+        position: "support",
       },
       {
         id: 4,
@@ -1355,6 +1439,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 90286,
         hero: "morphling",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 7,
@@ -1372,6 +1457,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 58134,
         hero: "queenofpain",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 6,
@@ -1389,6 +1475,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 49897,
         hero: "beastmaster",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 5,
@@ -1406,11 +1493,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 2657,
         hero: "lion",
         side: "Dire",
+        position: "hard_support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "24:12",
     teamWin: "Dire",
     players: [
       {
@@ -1429,6 +1518,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 60209,
         hero: "pudge",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 3,
@@ -1446,6 +1536,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 27190,
         hero: "rubick",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 6,
@@ -1463,6 +1554,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 40421,
         hero: "beastmaster",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 7,
@@ -1480,6 +1572,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 36971,
         hero: "drow_ranger",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 5,
@@ -1497,6 +1590,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 28834,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 1,
@@ -1514,6 +1608,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 24182,
         hero: "terrorblade",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 12,
@@ -1531,6 +1626,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 11786,
         hero: "jakiro",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 8,
@@ -1548,6 +1644,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 24097,
         hero: "sand_king",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 2,
@@ -1565,6 +1662,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 32359,
         hero: "storm_spirit",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 9,
@@ -1582,11 +1680,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 24908,
         hero: "spirit_breaker",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "31:44",
     teamWin: "Radiant",
     players: [
       {
@@ -1605,6 +1705,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 67816,
         hero: "shredder",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 5,
@@ -1622,6 +1723,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 16612,
         hero: "snapfire",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 3,
@@ -1639,6 +1741,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 22084,
         hero: "hoodwink",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 6,
@@ -1656,6 +1759,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 37760,
         hero: "skeleton_king",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 2,
@@ -1673,6 +1777,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 56490,
         hero: "leshrac",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 12,
@@ -1690,6 +1795,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 38971,
         hero: "ogre_magi",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 7,
@@ -1707,6 +1813,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 43763,
         hero: "drow_ranger",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 1,
@@ -1724,6 +1831,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 48221,
         hero: "tinker",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 8,
@@ -1741,6 +1849,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 66194,
         hero: "dragon_knight",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 9,
@@ -1758,11 +1867,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 61489,
         hero: "abaddon",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "32:50",
     teamWin: "Radiant",
     players: [
       {
@@ -1781,6 +1892,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 60926,
         hero: "drow_ranger",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 8,
@@ -1798,6 +1910,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 71780,
         hero: "skeleton_king",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 12,
@@ -1815,6 +1928,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 32541,
         hero: "jakiro",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 1,
@@ -1832,6 +1946,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 71977,
         hero: "broodmother",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 9,
@@ -1849,6 +1964,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 34283,
         hero: "witch_doctor",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 6,
@@ -1866,6 +1982,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 41330,
         hero: "luna",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 4,
@@ -1883,6 +2000,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 99015,
         hero: "axe",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 2,
@@ -1900,6 +2018,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 40044,
         hero: "puck",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 3,
@@ -1917,6 +2036,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 44665,
         hero: "shadow_shaman",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 5,
@@ -1934,11 +2054,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 36544,
         hero: "snapfire",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "04.11.2025",
+    gameTimeLenght: "17:57",
     teamWin: "Radiant",
     players: [
       {
@@ -1957,6 +2079,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 32182,
         hero: "skeleton_king",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 5,
@@ -1974,6 +2097,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 6829,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 3,
@@ -1991,6 +2115,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 11861,
         hero: "venomancer",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 2,
@@ -2008,6 +2133,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 20587,
         hero: "templar_assassin",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 6,
@@ -2025,6 +2151,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 12782,
         hero: "phantom_lancer",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 12,
@@ -2042,6 +2169,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 20352,
         hero: "ogre_magi",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 7,
@@ -2059,6 +2187,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 31231,
         hero: "sven",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 1,
@@ -2076,6 +2205,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 18757,
         hero: "viper",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 8,
@@ -2093,6 +2223,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 24754,
         hero: "magnataur",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 9,
@@ -2110,11 +2241,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 19546,
         hero: "snapfire",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "03.11.2025",
+    gameTimeLenght: "24:02",
     teamWin: "Dire",
     players: [
       {
@@ -2133,6 +2266,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 33378,
         hero: "weaver",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 2,
@@ -2150,6 +2284,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 29476,
         hero: "clinkz",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 10,
@@ -2167,6 +2302,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 38386,
         hero: "tidehunter",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 3,
@@ -2184,6 +2320,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 14334,
         hero: "sniper",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 11,
@@ -2201,6 +2338,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 21526,
         hero: "vengefulspirit",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 8,
@@ -2218,6 +2356,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 20734,
         hero: "magnataur",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 12,
@@ -2235,6 +2374,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 18985,
         hero: "ogre_magi",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 1,
@@ -2252,6 +2392,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 22185,
         hero: "tinker",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 9,
@@ -2269,6 +2410,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 23402,
         hero: "marci",
         side: "Dire",
+        position: "support",
       },
       {
         id: 7,
@@ -2286,11 +2428,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 20732,
         hero: "juggernaut",
         side: "Dire",
+        position: "carry",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "02.11.2025",
+    gameTimeLenght: "42:55",
     teamWin: "Radiant",
     players: [
       {
@@ -2309,6 +2453,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 67516,
         hero: "templar_assassin",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 12,
@@ -2326,6 +2471,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 41911,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 5,
@@ -2343,6 +2489,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 39378,
         hero: "lion",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 1,
@@ -2360,6 +2507,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 116930,
         hero: "arc_warden",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 9,
@@ -2377,6 +2525,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 11036,
         hero: "skeleton_king",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 2,
@@ -2394,6 +2543,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 85774,
         hero: "leshrac",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 4,
@@ -2411,6 +2561,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 70088,
         hero: "morphling",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 10,
@@ -2428,6 +2579,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 72618,
         hero: "viper",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 3,
@@ -2445,6 +2597,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 57635,
         hero: "earthshaker",
         side: "Dire",
+        position: "support",
       },
       {
         id: 11,
@@ -2462,11 +2615,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 51840,
         hero: "witch_doctor",
         side: "Dire",
+        position: "hard_support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "01.11.2025",
+    gameTimeLenght: "18:34",
     teamWin: "Radiant",
     players: [
       {
@@ -2485,6 +2640,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 13617,
         hero: "antimage",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 10,
@@ -2502,6 +2658,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 17918,
         hero: "centaur",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 8,
@@ -2519,6 +2676,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 28370,
         hero: "bristleback",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 3,
@@ -2536,6 +2694,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 12897,
         hero: "rubick",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 7,
@@ -2553,6 +2712,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 32524,
         hero: "razor",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 11,
@@ -2570,6 +2730,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 17234,
         hero: "ogre_magi",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 12,
@@ -2587,6 +2748,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 19673,
         hero: "jakiro",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 5,
@@ -2604,6 +2766,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 23921,
         hero: "necrolyte",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 9,
@@ -2621,6 +2784,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 19105,
         hero: "enchantress",
         side: "Dire",
+        position: "support",
       },
       {
         id: 1,
@@ -2638,11 +2802,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 19105,
         hero: "sniper",
         side: "Dire",
+        position: "mider",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "01.11.2025",
+    gameTimeLenght: "37:51",
     teamWin: "Dire",
     players: [
       {
@@ -2661,6 +2827,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 94131,
         hero: "centaur",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 12,
@@ -2678,6 +2845,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 45313,
         hero: "skywrath_mage",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 9,
@@ -2695,6 +2863,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 35979,
         hero: "sniper",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 1,
@@ -2712,6 +2881,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 125445,
         hero: "razor",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 8,
@@ -2729,6 +2899,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 156392,
         hero: "ursa",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 4,
@@ -2744,8 +2915,9 @@ export const MOCK_GAMES: IGame[] = [
         towerDamage: 21521,
         heroHealing: 0,
         damageReceived: 135155,
-        hero: "razor",
+        hero: "troll_warlord",
         side: "Dire",
+        position: "carry",
       },
       {
         id: 7,
@@ -2763,6 +2935,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 87687,
         hero: "storm_spirit",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 16,
@@ -2780,6 +2953,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 68304,
         hero: "vengefulspirit",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 11,
@@ -2797,6 +2971,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 92180,
         hero: "shadow_shaman",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 3,
@@ -2814,11 +2989,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 74881,
         hero: "rattletrap",
         side: "Dire",
+        position: "support",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "01.11.2025",
+    gameTimeLenght: "24:52",
     teamWin: "Radiant",
     players: [
       {
@@ -2837,6 +3014,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 62932,
         hero: "huskar",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 7,
@@ -2854,6 +3032,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 35774,
         hero: "queenofpain",
         side: "Radiant",
+        position: "mider",
       },
       {
         id: 3,
@@ -2871,6 +3050,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 17279,
         hero: "sniper",
         side: "Radiant",
+        position: "support",
       },
       {
         id: 14,
@@ -2888,6 +3068,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 32326,
         hero: "dragon_knight",
         side: "Radiant",
+        position: "harder",
       },
       {
         id: 11,
@@ -2905,6 +3086,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 28363,
         hero: "shadow_shaman",
         side: "Radiant",
+        position: "hard_support",
       },
       {
         id: 9,
@@ -2922,6 +3104,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 59314,
         hero: "undying",
         side: "Dire",
+        position: "support",
       },
       {
         id: 12,
@@ -2939,6 +3122,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 25129,
         hero: "jakiro",
         side: "Dire",
+        position: "hard_support",
       },
       {
         id: 5,
@@ -2956,6 +3140,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 50707,
         hero: "abyssal_underlord",
         side: "Dire",
+        position: "harder",
       },
       {
         id: 1,
@@ -2973,6 +3158,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 37378,
         hero: "earthshaker",
         side: "Dire",
+        position: "mider",
       },
       {
         id: 8,
@@ -2990,11 +3176,13 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 83679,
         hero: "lone_druid",
         side: "Dire",
+        position: "carry",
       },
     ],
   },
   {
-    gameTimeLenght: 0,
+    date: "",
+    gameTimeLenght: "",
     teamWin: "Dire",
     players: [
       {
@@ -3013,6 +3201,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3030,6 +3219,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3047,6 +3237,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3064,6 +3255,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3081,6 +3273,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3098,6 +3291,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3115,6 +3309,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3132,6 +3327,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3149,6 +3345,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
       {
         id: 0,
@@ -3166,6 +3363,7 @@ export const MOCK_GAMES: IGame[] = [
         damageReceived: 0,
         hero: "mars",
         side: "Radiant",
+        position: "carry",
       },
     ],
   },
