@@ -16,7 +16,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5856,
     heroHealing: 467,
     damageReceived: 49498,
-    rating: "2.4",
+    rating: "1.2",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5739,
     heroHealing: 13,
     damageReceived: 40988,
-    rating: "2.8",
+    rating: "1.4",
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 958,
     heroHealing: 95,
     damageReceived: 32374,
-    rating: "2.7",
+    rating: "0.7",
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 5421,
     heroHealing: 304,
     damageReceived: 58322,
-    rating: "2.6",
+    rating: "1.2",
   },
   {
     id: 5,
@@ -84,7 +84,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1871,
     heroHealing: 119,
     damageReceived: 30894,
-    rating: "2.6",
+    rating: "0.7",
   },
   {
     id: 6,
@@ -101,7 +101,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4012,
     heroHealing: 0,
     damageReceived: 43689,
-    rating: "2.1",
+    rating: "1.0",
   },
   {
     id: 7,
@@ -118,7 +118,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4377,
     heroHealing: 357,
     damageReceived: 42439,
-    rating: "2.3",
+    rating: "1.2",
   },
   {
     id: 8,
@@ -135,7 +135,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1443,
     heroHealing: 632,
     damageReceived: 50322,
-    rating: "2.2",
+    rating: "0.9",
   },
   {
     id: 9,
@@ -152,7 +152,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1358,
     heroHealing: 1898,
     damageReceived: 35989,
-    rating: "3.1",
+    rating: "0.8",
   },
   {
     id: 10,
@@ -169,7 +169,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 579,
     heroHealing: 972,
     damageReceived: 30906,
-    rating: "2.5",
+    rating: "0.7",
   },
   {
     id: 11,
@@ -186,7 +186,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 9504,
     heroHealing: 430,
     damageReceived: 37494,
-    rating: "3.0",
+    rating: "0.6",
   },
   {
     id: 12,
@@ -203,7 +203,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 325,
     heroHealing: 171,
     damageReceived: 25910,
-    rating: "3.1",
+    rating: "0.8",
   },
   {
     id: 13,
@@ -220,7 +220,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 0,
     heroHealing: 0,
     damageReceived: 30449,
-    rating: "0.9",
+    rating: "0.5",
   },
   {
     id: 14,
@@ -237,7 +237,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 4859,
     heroHealing: 160,
     damageReceived: 30067,
-    rating: "1.9",
+    rating: "0.5",
   },
   {
     id: 15,
@@ -254,7 +254,7 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 0,
     heroHealing: 2824,
     damageReceived: 31722,
-    rating: "0.7",
+    rating: "0.2",
   },
   {
     id: 16,
@@ -271,6 +271,6 @@ export const AVERAGE: TAverage[] = [
     towerDamage: 1447,
     heroHealing: 7717,
     damageReceived: 68304,
-    rating: "2.2",
+    rating: "0.5",
   },
 ];
