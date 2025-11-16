@@ -1,10 +1,14 @@
-import { AVERAGE } from "../../data/average";
+import type { TAverage } from "../../service";
 import { BestPlayer } from "../bestPlayer";
 import { Player } from "../player";
 import style from "./Table.module.scss";
 
-export function Table() {
-  const sortedPlayers = AVERAGE.sort((a, b) => {
+export function Table({ average }: { average: TAverage[] }) {
+  if (!average.length) {
+    return <h1>Пусто</h1>;
+  }
+
+  const sortedPlayers = average.sort((a, b) => {
     const aRating = +a.rating;
     const bRating = +b.rating;
     if (aRating > bRating) {

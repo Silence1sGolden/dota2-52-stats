@@ -20,20 +20,6 @@ export function BestPlayer({ stats }: { stats: TAverage }) {
         />
         <p className={style.username}>{player.username}</p>
       </div>
-      <div className={style.footer}>
-        <div className={style.popularHero}>
-          <p className={style.title}>Best Heroes</p>
-          <div className={style.heroList}>
-            {stats.bestHeroes.map((item) => (
-              <img
-                className={style.hero}
-                src={`https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/${item}.png`}
-                alt={item}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
       <table className={style.table}>
         <tbody>
           <tr>
@@ -78,6 +64,19 @@ export function BestPlayer({ stats }: { stats: TAverage }) {
           </tr>
         </tbody>
       </table>
+      <div className={style.popularHero}>
+        <p className={style.title}>Best Heroes</p>
+        <div className={style.heroList}>
+          {stats.bestHeroes.map((item, index) => (
+            <img
+              key={index}
+              className={style.hero}
+              src={`https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/${item}.png`}
+              alt={item}
+            />
+          ))}
+        </div>
+      </div>
     </li>
   );
 }
