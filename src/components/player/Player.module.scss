@@ -10,9 +10,15 @@
   .mainInfo {
     z-index: 3;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 5fr;
     background-color: #0a0a0a;
     padding-bottom: 10px;
+
+    .rating {
+      padding-left: 5px;
+      align-self: center;
+      font-size: 20px;
+    }
 
     th,
     td {
@@ -32,7 +38,6 @@
     .profile {
       display: flex;
       align-items: center;
-      justify-content: center;
       gap: 10px;
 
       .avatar {

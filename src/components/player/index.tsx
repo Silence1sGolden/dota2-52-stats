@@ -1,14 +1,19 @@
-import type { IPlayer } from "../../mock/players";
-import { getAverageValues } from "../../service";
+import { MOCK_PLAYERS } from "../../mock/players";
+import type { TAverage } from "../../service";
 import { MorePlayerInfo } from "./morePlayerInfo";
 import style from "./Player.module.scss";
 
-export function Player({ player }: { player: IPlayer }) {
-  const stats = getAverageValues(player.id);
+export function Player({ stats }: { stats: TAverage }) {
+  const player = MOCK_PLAYERS.find((item) => item.id === stats.id);
+
+  if (!player) {
+    return <div>ERROR</div>;
+  }
 
   return (
     <div className={style.player}>
       <div className={style.mainInfo}>
+        <p className={style.rating}>{stats.rating}</p>
         <div className={style.profile}>
           <img
             className={style.avatar}
@@ -17,7 +22,7 @@ export function Player({ player }: { player: IPlayer }) {
           />
           <p>{player.username}</p>
         </div>
-        <table>
+        <table className={style.table}>
           <thead>
             <tr>
               <th>K</th>
