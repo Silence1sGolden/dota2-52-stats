@@ -1,0 +1,43 @@
+.player {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  background-color: #0a0a0a;
+
+  .mainInfo {
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #0a0a0a;
+    padding-bottom: 10px;
+
+    th,
+    td {
+      min-width: 65px;
+      text-align: center;
+    }
+
+    th {
+      color: #969696;
+      font-size: 16px;
+    }
+
+    td {
+      font-size: 20px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      .avatar {
+        inline-size: 50px;
+      }
+    }
+  }
+}
