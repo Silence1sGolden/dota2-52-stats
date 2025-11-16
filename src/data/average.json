@@ -14,7 +14,7 @@
     "towerDamage": 5856,
     "heroHealing": 467,
     "damageReceived": 49498,
-    "rating": "2.3"
+    "rating": "3.1"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
     "towerDamage": 5739,
     "heroHealing": 13,
     "damageReceived": 40988,
-    "rating": "2.6"
+    "rating": "3.3"
   },
   {
     "id": 3,
@@ -48,7 +48,7 @@
     "towerDamage": 958,
     "heroHealing": 95,
     "damageReceived": 32374,
-    "rating": "2.8"
+    "rating": "3.6"
   },
   {
     "id": 4,
@@ -65,7 +65,7 @@
     "towerDamage": 5421,
     "heroHealing": 304,
     "damageReceived": 58322,
-    "rating": "2.4"
+    "rating": "3.2"
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
     "towerDamage": 1871,
     "heroHealing": 119,
     "damageReceived": 30894,
-    "rating": "2.9"
+    "rating": "3.6"
   },
   {
     "id": 6,
@@ -99,7 +99,7 @@
     "towerDamage": 4012,
     "heroHealing": 0,
     "damageReceived": 43689,
-    "rating": "2.0"
+    "rating": "2.6"
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
     "towerDamage": 4377,
     "heroHealing": 357,
     "damageReceived": 42439,
-    "rating": "2.1"
+    "rating": "2.9"
   },
   {
     "id": 8,
@@ -133,7 +133,7 @@
     "towerDamage": 1443,
     "heroHealing": 632,
     "damageReceived": 50322,
-    "rating": "2.0"
+    "rating": "2.8"
   },
   {
     "id": 9,
@@ -150,7 +150,7 @@
     "towerDamage": 1358,
     "heroHealing": 1898,
     "damageReceived": 35989,
-    "rating": "3.1"
+    "rating": "3.9"
   },
   {
     "id": 10,
@@ -167,7 +167,7 @@
     "towerDamage": 579,
     "heroHealing": 972,
     "damageReceived": 30906,
-    "rating": "2.8"
+    "rating": "3.2"
   },
   {
     "id": 11,
@@ -184,7 +184,7 @@
     "towerDamage": 9504,
     "heroHealing": 430,
     "damageReceived": 37494,
-    "rating": "3.4"
+    "rating": "3.8"
   },
   {
     "id": 12,
@@ -201,7 +201,7 @@
     "towerDamage": 325,
     "heroHealing": 171,
     "damageReceived": 25910,
-    "rating": "3.6"
+    "rating": "4.2"
   },
   {
     "id": 13,
@@ -218,7 +218,7 @@
     "towerDamage": 0,
     "heroHealing": 0,
     "damageReceived": 30449,
-    "rating": "0.9"
+    "rating": "1.0"
   },
   {
     "id": 14,
@@ -235,7 +235,7 @@
     "towerDamage": 4859,
     "heroHealing": 160,
     "damageReceived": 30067,
-    "rating": "2.1"
+    "rating": "2.3"
   },
   {
     "id": 15,
@@ -252,7 +252,7 @@
     "towerDamage": 0,
     "heroHealing": 2824,
     "damageReceived": 31722,
-    "rating": "0.7"
+    "rating": "0.8"
   },
   {
     "id": 16,
@@ -269,6 +269,6 @@
     "towerDamage": 1447,
     "heroHealing": 7717,
     "damageReceived": 68304,
-    "rating": "2.2"
+    "rating": "2.3"
   }
 ]
