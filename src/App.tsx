@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Table } from "./components/table";
 import { Nav, type TFilter } from "./components/nav";
 import { getDataApi } from "./api";
 import type { TAverage } from "./models/PlayerStats";
+import { Table } from "./components/Table";
 
 function App() {
   const [filter, setFilter] = useState<TFilter>("all");
