@@ -1,3 +1,9 @@
+export interface IPlayer {
+  id: number;
+  username: string;
+  avatar: string;
+}
+
 export interface IPlayerStats {
   id: number;
   kills: number;

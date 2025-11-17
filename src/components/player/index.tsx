@@ -1,10 +1,22 @@
-import { MOCK_PLAYERS } from "../../mock/players";
+import { useEffect, useState } from "react";
 import type { TAverage } from "../../service";
 import { MorePlayerInfo } from "./morePlayerInfo";
 import style from "./Player.module.scss";
+import type { IPlayer } from "../../models/PlayerStats";
+import { getDataApi } from "../../api";
 
 export function Player({ stats }: { stats: TAverage }) {
-  const player = MOCK_PLAYERS.find((item) => item.id === stats.id);
+  const [player, setPlayer] = useState<IPlayer | null>(null);
+
+  useEffect(() => {
+    getDataApi("players").then((data) => {
+      const lost = (data as IPlayer[]).find((item) => item.id === stats.id);
+
+      if (lost) {
+        setPlayer(lost);
+      }
+    });
+  }, []);
 
   if (!player) {
     return <div>ERROR</div>;
