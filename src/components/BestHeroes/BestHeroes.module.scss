@@ -1,0 +1,23 @@
+.bestHeroes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  .title {
+    text-align: center;
+    color: #969696;
+    font-size: 16px;
+  }
+
+  .heroList {
+    display: flex;
+    gap: 10px;
+
+    .hero {
+      inline-size: 64px;
+      block-size: 36px;
+    }
+  }
+}
