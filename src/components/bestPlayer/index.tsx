@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import type { TAverage } from "../../service";
 import style from "./BestPlayer.module.scss";
-import type { IPlayer } from "../../models/PlayerStats";
+import type { IPlayer, TAverage } from "../../models/PlayerStats";
 import { getDataApi } from "../../api";
 
 export function BestPlayer({ stats }: { stats: TAverage }) {

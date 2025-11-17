@@ -1,4 +1,4 @@
-import type { TAverage } from "../../service";
+import type { TAverage } from "../../models/PlayerStats";
 import { BestPlayer } from "../bestPlayer";
 import { Player } from "../player";
 import style from "./Table.module.scss";

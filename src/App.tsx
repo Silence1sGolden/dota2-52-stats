@@ -3,7 +3,7 @@ import "./App.css";
 import { Table } from "./components/table";
 import { Nav, type TFilter } from "./components/nav";
 import { getDataApi } from "./api";
-import type { TAverage } from "./service";
+import type { TAverage } from "./models/PlayerStats";
 
 function App() {
   const [filter, setFilter] = useState<TFilter>("all");

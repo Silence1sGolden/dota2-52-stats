@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import style from "./MorePlayerInfo.module.scss";
 import { animate, createScope, Scope } from "animejs";
-import type { TAverage } from "../../../service";
+import type { TAverage } from "../../../models/PlayerStats";
 
 export function MorePlayerInfo({ stats }: { stats: TAverage }) {
   const root = useRef<HTMLDivElement>(null);

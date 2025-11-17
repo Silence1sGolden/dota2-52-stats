@@ -1,3 +1,11 @@
+import type { THeroes } from "./Heroes";
+
+export type TAverage = {
+  rating: string;
+  gamesCount: number;
+  bestHeroes: THeroes[];
+} & IPlayerStats;
+
 export interface IPlayer {
   id: number;
   username: string;
@@ -18,4 +26,7 @@ export interface IPlayerStats {
   towerDamage: number;
   heroHealing: number;
   damageReceived: number;
+  supGoldSpent: number;
+  obsBuy: number;
+  campStacked: number;
 }
