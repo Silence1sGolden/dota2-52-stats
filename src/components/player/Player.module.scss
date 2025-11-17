@@ -2,17 +2,24 @@
   inline-size: 100%;
   display: flex;
   flex-direction: column;
+  gap: 5px;
 
-  padding: 10px;
+  padding: 10px 10px 5px;
 
   background-color: #0a0a0a;
 
-  .mainInfo {
+  .info {
     z-index: 3;
     display: grid;
-    grid-template-columns: 1fr 2fr 5fr;
+    grid-template-columns: 1fr 2fr 3fr 3fr;
+    gap: 5px;
     background-color: #0a0a0a;
-    padding-bottom: 10px;
+    padding: 0px 10px 5px;
+
+    @media (width <= 765px) {
+      grid-template-columns: 1fr 2fr 2fr;
+      padding: 0px 5px 0px;
+    }
 
     .rating {
       padding-left: 5px;
@@ -20,19 +27,18 @@
       font-size: 20px;
     }
 
-    th,
-    td {
-      min-width: 65px;
-      text-align: center;
-    }
-
-    th {
-      color: #969696;
-      font-size: 16px;
-    }
-
-    td {
-      font-size: 20px;
+    .best {
+      position: relative;
+      font-size: 26px;
+      background: linear-gradient(90deg, #ff0080, #ff8c00, #40e0d0, #ff0080);
+      background-size: 400% 100%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: rainbow 4s linear infinite;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      position: relative;
+      display: inline-block;
     }
 
     .profile {
@@ -44,5 +50,27 @@
         inline-size: 50px;
       }
     }
+
+    .kda {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .bestHeroes {
+      display: flex;
+
+      @media (width <= 765px) {
+        display: none;
+      }
+    }
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
   }
 }

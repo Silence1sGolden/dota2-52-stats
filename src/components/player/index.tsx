@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import type { TAverage } from "../../service";
-import { MorePlayerInfo } from "./morePlayerInfo";
 import style from "./Player.module.scss";
-import type { IPlayer } from "../../models/PlayerStats";
+import type { IPlayer, TAverage } from "../../models/PlayerStats";
 import { getDataApi } from "../../api";
+import { Details } from "./Details";
+import { StatElement } from "../StatElement";
+import { BestHeroes } from "../BestHeroes";
+import clsx from "clsx";
 
-export function Player({ stats }: { stats: TAverage }) {
+export function Player({ stats, best }: { stats: TAverage; best?: boolean }) {
   const [player, setPlayer] = useState<IPlayer | null>(null);
 
   useEffect(() => {
@@ -24,8 +26,8 @@ export function Player({ stats }: { stats: TAverage }) {
 
   return (
     <li className={style.player}>
-      <div className={style.mainInfo}>
-        <p className={style.rating}>{stats.rating}</p>
+      <div className={style.info}>
+        <p className={clsx(style.rating, best && style.best)}>{stats.rating}</p>
         <div className={style.profile}>
           <img
             className={style.avatar}
@@ -34,30 +36,26 @@ export function Player({ stats }: { stats: TAverage }) {
           />
           <p>{player.username}</p>
         </div>
-        <table className={style.table}>
-          <thead>
-            <tr>
-              <th>K</th>
-              <th>D</th>
-              <th>A</th>
-              <th>NET</th>
-              <th>HD</th>
-              <th>DR</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{stats.kills}</td>
-              <td>{stats.deaths}</td>
-              <td>{stats.assists}</td>
-              <td>{stats.gold}</td>
-              <td>{stats.heroDamage}</td>
-              <td>{stats.damageReceived}</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className={style.kda}>
+          <StatElement
+            title="K"
+            value={stats.kills}
+            options={{ transcript: "Kills" }}
+          />
+          <StatElement
+            title="D"
+            value={stats.deaths}
+            options={{ transcript: "Deaths" }}
+          />
+          <StatElement
+            title="A"
+            value={stats.assists}
+            options={{ transcript: "Assists" }}
+          />
+        </div>
+        <BestHeroes heroes={stats.bestHeroes} classNames={style.bestHeroes} />
       </div>
-      <MorePlayerInfo stats={stats} />
+      <Details stats={stats} />
     </li>
   );
 }
