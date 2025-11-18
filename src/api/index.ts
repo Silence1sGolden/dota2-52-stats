@@ -3,7 +3,6 @@ import type { IPlayer, TAverage } from "../models/PlayerStats";
 
 type TApiReq = TPositions | "all" | "players";
 
-const baseURL = "http://localhost:5173/";
 const cashData = new Map<TApiReq, TAverage[]>();
 
 export async function getDataApi(
@@ -13,7 +12,7 @@ export async function getDataApi(
     return cashData.get(api)!;
   }
 
-  return await fetch(`${baseURL}/${api}.json`)
+  return await fetch(`/${api}.json`)
     .then((res) => {
       if (res.ok) {
         return res.json();
