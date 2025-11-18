@@ -1,15 +1,23 @@
 import type { THeroes } from "./Heroes";
 import type { IPlayerStats } from "./PlayerStats";
 
+export type TSides = "Dire" | "Radiant";
+export type TPositions =
+  | "carry"
+  | "mider"
+  | "support"
+  | "harder"
+  | "hard_support";
+
 export interface IGamePlayerStats extends IPlayerStats {
   hero: THeroes;
-  side: "Dire" | "Radiant";
-  position: "carry" | "mider" | "support" | "harder" | "hard_support";
+  side: TSides;
+  position: TPositions;
 }
 
 export interface IGame {
   date: string;
   gameTimeLenght: string;
-  teamWin: "Dire" | "Radiant";
+  teamWin: TSides;
   players: IGamePlayerStats[];
 }

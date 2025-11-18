@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import style from "./MorePlayerInfo.module.scss";
 import { animate, createScope, Scope } from "animejs";
-import type { TAverage } from "../../../service";
+import type { TAverage } from "../../../models/PlayerStats";
+import { StatElement } from "../../StatElement";
 
-export function MorePlayerInfo({ stats }: { stats: TAverage }) {
+export function Details({ stats }: { stats: TAverage }) {
   const root = useRef<HTMLDivElement>(null);
   const scope = useRef<Scope>(null);
   const [showInfo, setShowInfo] = useState<boolean>(false);
@@ -12,16 +13,18 @@ export function MorePlayerInfo({ stats }: { stats: TAverage }) {
     scope.current = createScope({ root }).add((self) => {
       self?.add("showInformation", (s) => {
         if (s) {
-          animate(`.${style.moreInfo}`, {
+          animate(`.${style.details}`, {
             y: "0px",
             opacity: "1",
             height: "85px",
+            padding: "10px 5px 5px",
           });
         } else {
-          animate(`.${style.moreInfo}`, {
-            y: "-80px",
+          animate(`.${style.details}`, {
+            y: "-85px",
             opacity: "0",
             height: "0px",
+            padding: "0px 5px 0px",
           });
         }
       });
@@ -31,13 +34,12 @@ export function MorePlayerInfo({ stats }: { stats: TAverage }) {
   }, []);
 
   return (
-    <div ref={root} className="playerRoot">
+    <>
       <div className={style.line}>
         <svg
           onClick={() => {
             setShowInfo((prev) => {
               const newState = !prev;
-
               scope.current?.methods.showInformation(newState);
               return newState;
             });
@@ -76,43 +78,55 @@ export function MorePlayerInfo({ stats }: { stats: TAverage }) {
           />
         </svg>
       </div>
-      <div className={style.moreInfo}>
-        <div className={style.popularHero}>
-          <p className={style.title}>Best Heroes</p>
-          <div className={style.heroList}>
-            {stats.bestHeroes.map((item, index) => (
-              <img
-                key={index}
-                className={style.hero}
-                src={`https://cdn.steamstatic.com/apps/dota2/images/dota_react/heroes/${item}.png`}
-                alt={item}
-              />
-            ))}
-          </div>
+      <div ref={root} className={style.root}>
+        <div className={style.details}>
+          <StatElement
+            title="GPM"
+            value={stats.goldPerMin}
+            options={{ transcript: "Gold Per Minute" }}
+          />
+          <StatElement
+            title="XPM"
+            value={stats.xpPerMin}
+            options={{ transcript: "Experince Per Minute" }}
+          />
+          <StatElement
+            title="LH"
+            value={stats.lastHits}
+            options={{ transcript: "Last Hits" }}
+          />
+          <StatElement
+            title="DN"
+            value={stats.denies}
+            options={{ transcript: "Denies" }}
+          />
+          <StatElement
+            title="HD"
+            value={stats.heroDamage}
+            options={{ transcript: "Hero Damage" }}
+          />
+          <StatElement
+            title="TD"
+            value={stats.towerDamage}
+            options={{ transcript: "Tower Damage" }}
+          />
+          <StatElement
+            title="HH"
+            value={stats.heroDamage}
+            options={{ transcript: "Hero Healing" }}
+          />
+          <StatElement
+            title="SG"
+            value={stats.supGoldSpent}
+            options={{ transcript: "Supports Gold" }}
+          />
+          <StatElement
+            title="OB"
+            value={stats.obsBuy}
+            options={{ transcript: "Observers Buy" }}
+          />
         </div>
-        <table>
-          <thead>
-            <tr>
-              <th>LH</th>
-              <th>DN</th>
-              <th>TD</th>
-              <th>GPM</th>
-              <th>XPM</th>
-              <th>HH</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>{stats.lastHits}</td>
-              <td>{stats.denies}</td>
-              <td>{stats.towerDamage}</td>
-              <td>{stats.goldPerMin}</td>
-              <td>{stats.xpPerMin}</td>
-              <td>{stats.heroHealing}</td>
-            </tr>
-          </tbody>
-        </table>
       </div>
-    </div>
+    </>
   );
 }

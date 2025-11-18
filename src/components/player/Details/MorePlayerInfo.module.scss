@@ -1,0 +1,32 @@
+.line {
+  z-index: 3;
+  position: relative;
+  display: block;
+  block-size: 2px;
+  inline-size: 100%;
+  background-color: #272727;
+  border-radius: 100px;
+
+  svg {
+    cursor: pointer;
+    position: absolute;
+    top: -8px;
+    left: calc((100% - 18px) / 2);
+  }
+}
+
+.root {
+  min-block-size: 0px;
+  overflow: hidden;
+
+  .details {
+    z-index: 2;
+    height: 0px;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    padding: 0px 5px 0px;
+
+    opacity: 0;
+  }
+}

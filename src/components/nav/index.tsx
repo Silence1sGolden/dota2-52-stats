@@ -26,31 +26,31 @@ export function Nav({
         onClick={() => onClickButton("all")}
         className={clsx(style.button, current === "all" && style.current)}
       >
-        Все
+        All
       </button>
       <button
         onClick={() => onClickButton("carry")}
         className={clsx(style.button, current === "carry" && style.current)}
       >
-        Керри
+        Carry
       </button>
       <button
         onClick={() => onClickButton("mider")}
         className={clsx(style.button, current === "mider" && style.current)}
       >
-        Мидеры
+        Mider
       </button>
       <button
         onClick={() => onClickButton("harder")}
         className={clsx(style.button, current === "harder" && style.current)}
       >
-        Тройки
+        Harder
       </button>
       <button
         onClick={() => onClickButton("support")}
         className={clsx(style.button, current === "support" && style.current)}
       >
-        Четверки
+        Support
       </button>
       <button
         onClick={() => onClickButton("hard_support")}
@@ -59,7 +59,7 @@ export function Nav({
           current === "hard_support" && style.current
         )}
       >
-        Пятерки
+        Hard Support
       </button>
     </nav>
   );
