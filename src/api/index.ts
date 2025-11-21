@@ -12,7 +12,7 @@ export async function getDataApi(
     return cashData.get(api)!;
   }
 
-  return await fetch(`/${api}.json`)
+  return await fetch(`${api}.json`)
     .then((res) => {
       if (res.ok) {
         return res.json();
